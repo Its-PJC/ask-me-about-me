@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+
+    .full-page {
+        width: 98vw; /* Full viewport width */
+        height: 97vh; /* Full viewport height */
+        background-color: #333; /* Dark background */
+        color: #fff; /* White text */
+        // display: flex; /* Flexbox for centering */
+        // justify-content: center; /* Horizontal centering */
+        align-items: center; /* Vertical centering */
+        border-radius: 1rem;
+
+        /* Change the input field background color */
+        .input-container .mat-form-field-flex {
+            background-color: #333; /* Dark background color */
+            color: white; /* Text color for better visibility */
+            border-radius: 4px; /* Optional: Rounded corners */
+        }
+        
+        /* Change the text color inside the input */
+        .input-container input {
+            color: white; /* Text inside the input */
+        }
+        
+        /* Optional: Style the container for spacing or centering */
+        .custom-input {
+            margin: 20px auto;
+            width: 300px; /* Adjust width */
+        }
+  
+      }
+}
